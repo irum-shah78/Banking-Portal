@@ -1,0 +1,257 @@
+body {
+  background-image: url('Assets/bankk.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.container {
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 16rem auto;
+  margin-left: 100px;
+  margin-top: 40px;
+  border-radius: 8px;
+
+}
+
+aside {
+  background-color: white;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+
+/* .main {
+  margin-left: 10px;
+} */
+
+h3 {
+  padding-top: 15px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.dp {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sidebar i.wallet,
+.sidebar i.setting,
+.sidebar i.form {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sidebar i.cap {
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sidebar i.signout {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.loans:hover>i,
+.settings:hover>i,
+.forms:hover>i,
+.caps:hover>i,
+.signoutt:hover>i {
+  color: #aa8522;
+  cursor: pointer;
+}
+
+.loans:hover,
+.settings:hover,
+.forms:hover,
+.caps:hover,
+.signoutt:hover {
+  background-color: rgb(246, 247, 245);
+  cursor: pointer;
+}
+
+.caps {
+  margin-bottom: 150px;
+}
+
+.loans {
+  margin-top: 80px;
+}
+
+p:hover {
+  color: #aa8522;
+  font-weight: bold;
+}
+
+main h2 {
+  padding-top: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+main {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 30rem auto;
+  gap: 1rem;
+}
+
+.balance {
+  background-image: url('Assets/total.jpeg');
+  background-size: 400px;
+  margin-left: 30px;
+  width: 400px;
+  height: 25vh;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.balance h3 {
+  color: Black;
+  text-align: center;
+}
+
+.balance p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.transaction-history {
+  background-image: url('Assets/historyy.jpeg');
+  /* background-size: 100px; */
+  width: 400px;
+  height: 25vh;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.transaction-history h3 {
+  color: Black;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.transaction-form {
+  background-image: url('Assets/cash\ in-out.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* width: 100vw; */
+  width: 900px;
+  height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.transaction-form h3 {
+  color: black;
+  text-align: center;
+}
+
+input[type="number"] {
+  margin-left: 35px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aa8522;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.btn-1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid gray;
+  background-color: #aa8522;
+  padding: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 370px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: black;
+  color: #aa8522;
+  font-weight: bold;
+  border-color: #aa8522;
+}
+
+.btn-2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid gray;
+  background-color: #aa8522;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: black;
+  color: #aa8522;
+  font-weight: bold;
+  border-color: #aa8522;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #aa8522;
+  border-radius: 3px;
+  background-color: rgb(207, 195, 195);
+}
+
+@media only screen and (max-width: 1500px){
+ .container{
+    margin-left: 40px;
+ }
+}
+
+@media only screen and (min-width: 500px){
+  .container{
+    margin-left: 40px;
+ }
+}
