@@ -57,13 +57,3 @@ signin_form.addEventListener("submit", function (event) {
     alert("Sign-in Successfully!");
     window.location.href = "dashboard.html";
 });
-
-
-
-
-
-
-
-
-
-
